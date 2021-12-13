@@ -1,0 +1,4 @@
+Attempting to download 'http://www.thomas-bayer.com/axis2/services/BLZService?wsdl' using DiscoveryClientProtocol..
+DiscoveryClientProtocol found documents at the following URLs:
+- WSDL document at  
+http://www.thomas-bayer.com/axis2/services/BLZService?wsdl

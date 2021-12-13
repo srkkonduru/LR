@@ -1,0 +1,1 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><getBank xmlns="http://thomas-bayer.com/blz/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><blz>61150025</blz></getBank></s:Body></s:Envelope>

@@ -1,0 +1,12 @@
+<?xml-stylesheet href="..\web_service_call.xsl" type="text/xsl"?>
+<report vuGenInstallDir="C:\Program Files (x86)\Micro Focus\LoadRunner\">
+  <web_service_call>
+    <service name="BLZService" />
+    <port name="BLZServiceSOAP11port_http" />
+    <operation name="getBank" />
+    <wsdl location="http://www.thomas-bayer.com/axis2/services/BLZService?wsdl" />
+    <address url="" />
+    <toolkit name="WCF" />
+    <aspect name="Positive Testing" />
+  </web_service_call>
+</report>

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\srkko\Documents\VuGen\Scripts\WT_S04_Cancel_Ticket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\srkko\documents\vugen\scripts\wt_s04_cancel_ticket\\logfile.log
+c:\users\srkko\documents\vugen\scripts\wt_s04_cancel_ticket\\combined_WT_S04_Cancel_Ticket.c
+c:\users\srkko\documents\vugen\scripts\wt_s04_cancel_ticket\\pre_cci.c

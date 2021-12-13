@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\srkko\Documents\VuGen\Scripts\WT_S02_SignIn
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\srkko\documents\vugen\scripts\wt_s02_signin\\logfile.log
+c:\users\srkko\documents\vugen\scripts\wt_s02_signin\\combined_WT_S02_SignIn.c
+c:\users\srkko\documents\vugen\scripts\wt_s02_signin\\pre_cci.c

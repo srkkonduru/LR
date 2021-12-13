@@ -1,0 +1,153 @@
+Virtual User Script started at: 13-12-2021 11:22:51
+Starting action vuser_init.
+Web Services replay version 2021.0.0 for Windows 10; Toolkit: "WCF"; build 0
+Runtime Settings file: "C:\Users\srkko\Documents\VuGen\Scripts\WebServices1\\default.cfg"
+Vuser directory: "C:\Users\srkko\Documents\VuGen\Scripts\WebServices1"
+Vuser output directory: "C:\Users\srkko\Documents\VuGen\Scripts\WebServices1\"
+LOCAL start date/time : 2021-12-13 11:22:51
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): Notify: Transaction "WB_BLZ_T01" started.
+Action.c(7): Notify: Parameter Substitution: parameter "blz_Num" =  "35461106"
+Action.c(7): Web service call "getBank_101" started
+Action.c(7): t=1794ms: 142-byte response headers for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=1)
+Action.c(7):     HTTP/1.1 200 OK\r\n
+Action.c(7):     Server: Apache-Coyote/1.1\r\n
+Action.c(7):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(7):     Date: Mon, 13 Dec 2021 05:52:48 GMT\r\n
+Action.c(7):     Content-Length: 407\r\n
+Action.c(7):     \r\n
+Action.c(7): t=1818ms: 407-byte response body for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=1)
+Action.c(7):     <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+Action.c(7):     oap.org/soap/envelope/"><soapenv:Body><ns1:getBankResponse xmlns:ns1="http://thomas-bayer.
+Action.c(7):     com/blz/"><ns1:details><ns1:bezeichnung>Volksbank Niederrhein</ns1:bezeichnung><ns1:bic>GE
+Action.c(7):     NODED1NRH</ns1:bic><ns1:ort>Alpen</ns1:ort><ns1:plz>46515</ns1:plz></ns1:details></ns1:get
+Action.c(7):     BankResponse></soapenv:Body></soapenv:Envelope>
+Action.c(7): Notify: Saving Parameter "getBank_101_Response = <getBank><getBankResult><ExtensionData /><bezeichnung>Volksbank Niederrhein</bezeichnung><bic>GENODED1NRH</bic><ort>Alpen</ort><plz>46515</plz></getBankResult></getBank>".
+Action.c(7): Notify: Saving Parameter "response = <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns1:getBankResponse xmlns:ns1="http://thomas-bayer.com/blz/"><ns1:details><ns1:bezeichnung>Volksbank Niederrhein</ns1:bezeichnung><ns1:bic>GENODED1NRH</ns1:bic><ns1:ort>Alpen</ns1:ort><ns1:plz>46515</ns1:plz></ns1:details></ns1:getBankResponse></soapenv:Body></soapenv:Envelope>".
+Action.c(7): Web service call "getBank_101" was successful
+Action.c(19): Notify: Transaction "WB_BLZ_T01" ended with a "Pass" status (Duration: 1.5252 Wasted Time: 0.2275).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter blz_Num = 2 [table  = blz_Num].
+Notify: Getting new value for parameter 'blz_Num': table = 'blz_Num.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(5): Notify: Transaction "WB_BLZ_T01" started.
+Action.c(7): Notify: Parameter Substitution: parameter "blz_Num" =  "35450000"
+Action.c(7): Web service call "getBank_101" started
+Action.c(7): t=3019ms: 142-byte response headers for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=2)
+Action.c(7):     HTTP/1.1 200 OK\r\n
+Action.c(7):     Server: Apache-Coyote/1.1\r\n
+Action.c(7):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(7):     Date: Mon, 13 Dec 2021 05:52:50 GMT\r\n
+Action.c(7):     Content-Length: 410\r\n
+Action.c(7):     \r\n
+Action.c(7): t=3027ms: 410-byte response body for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=2)
+Action.c(7):     <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+Action.c(7):     oap.org/soap/envelope/"><soapenv:Body><ns1:getBankResponse xmlns:ns1="http://thomas-bayer.
+Action.c(7):     com/blz/"><ns1:details><ns1:bezeichnung>Sparkasse am Niederrhein</ns1:bezeichnung><ns1:bic
+Action.c(7):     >WELADED1MOR</ns1:bic><ns1:ort>Moers</ns1:ort><ns1:plz>47439</ns1:plz></ns1:details></ns1:
+Action.c(7):     getBankResponse></soapenv:Body></soapenv:Envelope>
+Action.c(7): Notify: Saving Parameter "getBank_101_Response = <getBank><getBankResult><ExtensionData /><bezeichnung>Sparkasse am Niederrhein</bezeichnung><bic>WELADED1MOR</bic><ort>Moers</ort><plz>47439</plz></getBankResult></getBank>".
+Action.c(7): Notify: Saving Parameter "response = <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns1:getBankResponse xmlns:ns1="http://thomas-bayer.com/blz/"><ns1:details><ns1:bezeichnung>Sparkasse am Niederrhein</ns1:bezeichnung><ns1:bic>WELADED1MOR</ns1:bic><ns1:ort>Moers</ns1:ort><ns1:plz>47439</ns1:plz></ns1:details></ns1:getBankResponse></soapenv:Body></soapenv:Envelope>".
+Action.c(7): Web service call "getBank_101" was successful
+Action.c(19): Notify: Transaction "WB_BLZ_T01" ended with a "Pass" status (Duration: 1.0788 Wasted Time: 0.0058).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter blz_Num = 3 [table  = blz_Num].
+Notify: Getting new value for parameter 'blz_Num': table = 'blz_Num.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(5): Notify: Transaction "WB_BLZ_T01" started.
+Action.c(7): Notify: Parameter Substitution: parameter "blz_Num" =  "61150025"
+Action.c(7): Web service call "getBank_101" started
+Action.c(7): t=4042ms: 181-byte response headers for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=3)
+Action.c(7):     HTTP/1.1 500 Internal Server Error\r\n
+Action.c(7):     Server: Apache-Coyote/1.1\r\n
+Action.c(7):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(7):     Date: Mon, 13 Dec 2021 05:52:51 GMT\r\n
+Action.c(7):     Connection: close\r\n
+Action.c(7):     Content-Length: 2621\r\n
+Action.c(7):     \r\n
+Action.c(7): t=4051ms: 2621-byte response body for "http://www.thomas-bayer.com/axis2/services/BLZService" (RelFrameId=1, Internal ID=3)
+Action.c(7):     <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+Action.c(7):     oap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode>
+Action.c(7):     <faultstring>Keine Bank zur BLZ 61150025 gefunden!</faultstring><detail><Exception>org.apa
+Action.c(7):     che.axis2.AxisFault: Keine Bank zur BLZ 61150025 gefunden!\n
+Action.c(7):     \tat com.thomas_bayer.blz.BLZService.getBank(BLZService.java:41)\n
+Action.c(7):     \tat com.thomas_bayer.blz.BLZServiceMessageReceiverInOut.invokeBusinessLogic(BLZServiceMes
+Action.c(7):     sageReceiverInOut.java:49)\n
+Action.c(7):     \tat org.apache.axis2.receivers.AbstractInOutSyncMessageReceiver.invokeBusinessLogic(Abstr
+Action.c(7):     actInOutSyncMessageReceiver.java:42)\n
+Action.c(7):     \tat org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.ja
+Action.c(7):     va:96)\n
+Action.c(7):     \tat org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:145)\n
+Action.c(7):     \tat org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTranspo
+Action.c(7):     rtUtils.java:275)\n
+Action.c(7):     \tat org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:120)\n
+Action.c(7):     \tat javax.servlet.http.HttpServlet.service(HttpServlet.java:646)\n
+Action.c(7):     \tat javax.servlet.http.HttpServlet.service(HttpServlet.java:727)\n
+Action.c(7):     \tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterCha
+Action.c(7):     in.java:303)\n
+Action.c(7):     \tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:
+Action.c(7):     208)\n
+Action.c(7):     \tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)\n
+Action.c(7):     \tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)\n
+Action.c(7):     \tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501
+Action.c(7):     )\n
+Action.c(7):     \tat org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)\n
+Action.c(7):     \tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)\n
+Action.c(7):     \tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)\n
+Action.c(7):     \tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)\n
+Action.c(7):     \tat org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:683)\n
+Action.c(7):     \tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)\n
+Action.c(7):     \tat org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java
+Action.c(7):     :1041)\n
+Action.c(7):     \tat org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol
+Action.c(7):     .java:607)\n
+Action.c(7):     \tat org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)\n
+Action.c(7):     \tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n
+Action.c(7):     \tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n
+Action.c(7):     \tat java.lang.Thread.run(Thread.java:745)\n
+Action.c(7):     </Exception></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+Action.c(7): Error Exceptions:
+Action.c(7): System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ServiceModel.FaultException: Keine Bank zur BLZ 61150025 gefunden!
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at BLZServicePortType.getBank(getBankRequest request)
+   at BLZServicePortTypeClient.BLZServicePortType.getBank(getBankRequest request)
+   at BLZServicePortTypeClient.getBank(String blz)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at LR.LrWsWCFClient.StubAgent.InvokeMethod(String sMethod, IWSMethodParameters mParams, String sAsyncEvent)
+   at LR.LrWsWCFClient.WCFReplay.InvokeMethod(String sMethod, IWSMethodParameters mParams, String sAsyncEvent, Int32 retryTimes)
+Action.c(7): Error: InvokeMethod failure: Keine Bank zur BLZ 61150025 gefunden!.
+Action.c(7): Error stack trace:    at LR.LrWsWCFClient.ResultArgExtractor.CreateXmlArgsDoc()
+   at LR.LrWsWCFClient.ResultArgExtractor.ExtractArgAsXml(String sArgPath, ArgumentExtractionType extractionType)
+   at LR.LrWsWCFClient.ResultArgExtractor.ExtractArg(String sArgPath, Boolean IsSaveResultArgumentsAsIs, ArgumentExtractionType extractionType)
+   at LR.LrWsWCFClient.StubAgent.ExtractArg(String sArgPath, ArgumentExtractionType extractionType)
+   at LR.LrWsWCFClient.WCFReplay.ExtractResultArg(String sArgPath, ArgumentExtractionType extractionType, Array& barrArgValue)
+Action.c(7): Error: ExtractResultArg failure: Object reference not set to an instance of an object..
+Action.c(7): Error: Web service call "getBank_101" execution failed
+Action.c(7): Notify: Transaction "WB_BLZ_T01" ended with a "Fail" status (Duration: 1.0009 Wasted Time: 0.0205).
+Action.c(7): Notify: Transaction "WB_BLZ_T01" has 0 error message(s).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

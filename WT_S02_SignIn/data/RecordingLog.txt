@@ -1,0 +1,388 @@
+[API Trapper      (15d4:1618)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (2044:1324)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (1b34:184c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (181c: ce4)] Recording in 64-bit mode: C:\Windows\system32\IESettingSync.exe
+[Network Analyzer (1b34:15f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b34:15f8)] Load Network Traffic Analyzers:
+[Network Analyzer (1b34:15f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1b34:15f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1b34:15f8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1b34:15f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1b34:15f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1b34:15f8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1b34:15f8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1b34:15f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1b34:25e8)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1af4)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:15f8)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1af4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1b34:25e8)] "GET /webtours/index.htm"   
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Client -> Server @ : 300 bytes (Service=HTTP)
+[Network Analyzer (1b34:15f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /webtours/header.html"   
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Client -> Server @ : 353 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Client -> Server @ : 403 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /webtours/images/webtours.png"   
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Client -> Server @ : 396 bytes (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /WebTours/home.html"   
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Client -> Server @ : 392 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 1752 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Client -> Server @ : 407 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /favicon.ico"   
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (1b34:1898)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34: c20)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2b98)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2a3c)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34: 26c)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1ae0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (1b34:1898)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1b34: c20)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1b34:2b98)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1b34:1ae0)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (1b34:13d0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:1ea4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:2b98)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2ab8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:2b98)] Request Connection: Remote Server @ 131.253.33.203:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (1b34:1700)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1b34:25e8)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Server -> Client : 351 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Client -> Server @ : 292 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Server -> Client : 350 bytes  (Service=HTTP)
+[Network Analyzer (1b34: 26c)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1b34:2a3c)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (1b34:1ca0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1ca0)] Request Connection: Remote Server @ 104.114.103.118:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1b34:25e8)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 168 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 168 bytes  (Service=HTTP)
+[Net An. Error    (1b34:1700)] SSLAccept(ssl_id = 201393344 = 0C0104C0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:13d0)] SSLAccept(ssl_id = 200454928 = 0BF2B310) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1ea4)] SSLAccept(ssl_id = 201068616 = 0BFC1048) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1700)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b34:13d0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b34:1ea4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:1b24)] Address lookup for viyaan = 192.168.43.121
+[Net An. Error    (1b34:2ab8)] SSLAccept(ssl_id = 201282592 = 0BFF5420) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:2ab8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:25e8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (1b34:1b24)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1b34: 738)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34: 738)] SSLAccept(ssl_id = 198377544 = 0BD30048) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34: 738)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:1b64)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1b34:1b64)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1b34: a8c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34: a8c)] SSLAccept(ssl_id = 129950248 = 07BEE228) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34: a8c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:1988)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (1b34:1988)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1b34:26c8)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34:26c8)] SSLAccept(ssl_id = 198377544 = 0BD30048) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:26c8)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:25e8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1b34:26c4)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:26c4)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1b34:1880)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34:1880)] SSLAccept(ssl_id = 129950248 = 07BEE228) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1880)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:25e8)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (1b34:1988)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:26c4)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1988)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (1b34:25e8)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Client -> Server @ : 599 bytes (Service=HTTP)
+[Network Analyzer (1b34:26c4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 877 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Client -> Server @ : 531 bytes (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer (1b34:1988)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Client -> Server @ : 555 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (1b34:1b64)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34: 410)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1b24)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1898)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1b34:1b64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1b34:25e8)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Client -> Server @ : 557 bytes (Service=HTTP)
+[Network Analyzer (1b34: 410)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1b34: c20)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (1b34:25e8)]   (Sid: 17) Client -> Server @ : 555 bytes (Service=HTTP)
+[Network Analyzer (1b34:1b24)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1b34:25e8)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (1b34: 980)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Client -> Server @ : 555 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 17) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (1b34:1988)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1b34:1898)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (1b34: c20)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1b34: 980)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (1b34:2710)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1b34:25e8)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Server -> Client : 350 bytes  (Service=HTTP)
+[Network Analyzer (1b34:2690)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1b34:25e8)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Client -> Server @ : 292 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid:  7) Server -> Client : 350 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (1b34:1608)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 1568 bytes  (Service=HTTP)
+[Network Analyzer (2044:25e0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2044:25e0)] Load Network Traffic Analyzers:
+[Network Analyzer (2044:25e0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2044:25e0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2044:25e0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2044:25e0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2044:25e0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Web Request      (1b34:25e8)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2044:25e0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2044:25e0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2044:25e0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2044: 520)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2410)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:25e8)]   (Sid: 10) Server -> Client : 1568 bytes  (Service=HTTP)
+[Net An. Error    (1b34:2710)] SSLAccept(ssl_id = 201104688 = 0BFC9D30) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:2690)] SSLAccept(ssl_id = 201929312 = 0C093260) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1608)] SSLAccept(ssl_id = 202081760 = 0C0B85E0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:2710)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b34:2690)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b34:1608)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1b34:2410)] SSLAccept(ssl_id = 200454928 = 0BF2B310) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:2410)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:2b98)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (1b34:2b98)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (1b34:25e8)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (1b34:25e8)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (1b34:14c0)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34:14c0)] SSLAccept(ssl_id = 201538104 = 0C033A38) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:14c0)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:25e8)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1b34:1b24)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1b24)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1b34:1460)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34:1460)] SSLAccept(ssl_id = 199739224 = 0BE7C758) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1460)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2044:2728)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: 740)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044:25e0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044:25e0)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2044:2728)] Request Connection: Remote Server @ 20.212.97.243:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2044: 740)] Request Connection: Remote Server @ 20.212.97.243:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (2044:10ec)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2044: c50)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:26c4)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: c50)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2044: b24)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:26c4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (2044:2728)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044:1544)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2044:2728)] Request Connection: Remote Server @ 131.253.33.203:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2044:1528)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1b34:  e0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (2044: 520)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (2044: 520)]   (Sid:  5) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  5) Server -> Client : 465 bytes  (Service=HTTP)
+[Web Request      (2044: 520)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEzMAHLlWpDejou0tqNwAAAAcuVY%3D"   
+[Network Analyzer (2044: 520)]   (Sid:  5) Client -> Server @ : 292 bytes (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  5) Server -> Client : 464 bytes  (Service=HTTP)
+[Network Analyzer (2044:19e0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044:19e0)] Request Connection: Remote Server @ 104.114.103.118:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2044: 520)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (2044: 520)]   (Sid:  6) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (1b34:1b24)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1ca0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:1b24)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (1b34:25e8)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (1b34:1ca0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Client -> Server @ : 393 bytes (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /WebTours/home.html"   
+[Network Analyzer (1b34:25e8)]   (Sid: 28) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 28) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (1b34: c20)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34: 980)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2bdc)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1b34: 410)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: 520)]   (Sid:  6) Server -> Client : 1568 bytes  (Service=HTTP)
+[Web Request      (2044: 520)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2002.crl"   
+[Network Analyzer (2044: 520)]   (Sid:  6) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (1b34: 980)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (1b34: c20)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1b34:2bdc)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (1b34: 410)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (2044: 520)]   (Sid:  6) Server -> Client : 1568 bytes  (Service=HTTP)
+[Net An. Error    (2044: b24)] SSLAccept(ssl_id = 2758694115280 = 000002824EFB97D0) Failed, ctx = 000002824EFB2470, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2044:1544)] SSLAccept(ssl_id = 2758694283136 = 000002824EFE2780) Failed, ctx = 000002824EFB2470, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2044: b24)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2044:1544)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2044:25e0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:136c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2044: 520)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (2044: 520)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2044:25e0)] Request Connection: Remote Server @ 20.212.97.243:443   (Service=)  (Sid=  7)  PROXIED!
+[Net An. Error    (1b34:136c)] SSLAccept(ssl_id = 202080176 = 0C0B7FB0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:136c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1b34:1684)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2044:2174)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (1b34:1684)] SSLAccept(ssl_id = 200509664 = 0BF388E0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1684)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2044:2174)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:1c14)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1b34:25e8)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (2044: c50)] Address lookup for viyaan = 192.168.43.121
+[Net An. Error    (1b34:1c14)] SSLAccept(ssl_id = 201929136 = 0C0931B0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34:1c14)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (2044: 520)] "GET /l1.dat?v=3&cv=9.11.19041.0&os=10.0.19041.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"   
+[Network Analyzer (2044: 520)]   (Sid:  7) Client -> Server @ : 301 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2044: c50)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2044: 520)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAiMsEOrASlmL1E2di6AVF4%3D"   
+[Network Analyzer (1b34:1b24)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: 520)]   (Sid:  8) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (1b34: 5f8)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2044: 520)]   (Sid:  7) Server -> Client : 11277 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (2044: 520)]   (Sid:  8) Server -> Client : 799 bytes  (Service=HTTP)
+[Web Request      (2044: 520)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAiMsEOrASlmL1E2di6AVF4%3D"   
+[Network Analyzer (2044: 520)]   (Sid:  8) Client -> Server @ : 279 bytes (Service=HTTP)
+[Net An. Error    (1b34: 5f8)] SSLAccept(ssl_id = 200509664 = 0BF388E0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34: 5f8)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2044: 520)]   (Sid:  8) Server -> Client : 799 bytes  (Service=HTTP)
+[Network Analyzer (2044: f00)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: f00)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1b34:25e8)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (1b34:25e8)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (1b34:1b24)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1b34:2b98)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (1b34:2b98)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (2044: 520)] "GET /DigiCertSHA2SecureServerCA.crl"   
+[Network Analyzer (2044: 520)]   (Sid:  9) Client -> Server @ : 148 bytes (Service=HTTP)
+[Network Analyzer (1b34: d20)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Net An. Error    (1b34: d20)] SSLAccept(ssl_id = 200509664 = 0BF388E0) Failed, ctx = 07BFDB70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1b34: d20)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 10412 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (1b34:1ae0)] Address lookup for viyaan = 192.168.43.121
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 4200 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 4200 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 4200 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 9792 bytes  (Service=HTTP)
+[Web Request      (1b34:25e8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAiMsEOrASlmL1E2di6AVF4%3D"   
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 14000 bytes  (Service=HTTP)
+[Network Analyzer (1b34:25e8)]   (Sid: 34) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (1b34:1ae0)] Request Connection: Remote Server @ 40.90.184.82:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (2044: 520)]   (Sid:  9) Server -> Client : 1400 bytes  (Service=HTTP)

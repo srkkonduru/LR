@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Accept-Language: en-IN,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&
+

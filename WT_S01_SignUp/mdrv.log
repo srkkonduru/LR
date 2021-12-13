@@ -1,0 +1,1191 @@
+Virtual User Script started at: 07-12-2021 11:48:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\srkko\Documents\VuGen\Scripts\WT_S01_SignUp\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10076 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.3285 Wasted Time: 0.1547).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1434 Wasted Time: 0.0093).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t6"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test6"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1078 body bytes, 362 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1257 Wasted Time: 0.0079).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5895 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.1867 Wasted Time: 0.0124).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2357 Wasted Time: 0.0089).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter State = 2 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '2'.
+Notify: Next row for parameter U_name = 2 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '2'.
+Notify: Next row for parameter FirstName = 2 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '2'.
+Notify: Next row for parameter Address = 2 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '2'.
+Notify: Next row for parameter LastName = 2 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '2'.
+Notify: Next row for parameter Password = 2 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '2'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2217 Wasted Time: 0.0192).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1436 Wasted Time: 0.0154).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test7"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test7"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test7"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test7"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t7"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test7"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test7"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1078 body bytes, 362 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1277 Wasted Time: 0.0144).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5895 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2176 Wasted Time: 0.0139).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2037 Wasted Time: 0.0157).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter State = 3 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '3'.
+Notify: Next row for parameter U_name = 3 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '3'.
+Notify: Next row for parameter FirstName = 3 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '3'.
+Notify: Next row for parameter Address = 3 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '3'.
+Notify: Next row for parameter LastName = 3 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '3'.
+Notify: Next row for parameter Password = 3 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '3'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2016 Wasted Time: 0.0194).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1267 Wasted Time: 0.0166).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t8"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test8"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1078 body bytes, 362 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1279 Wasted Time: 0.0210).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5895 body bytes, 1887 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2346 Wasted Time: 0.0145).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2336 Wasted Time: 0.0177).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Notify: Next row for parameter State = 4 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '4'.
+Notify: Next row for parameter U_name = 4 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '4'.
+Notify: Next row for parameter FirstName = 4 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '4'.
+Notify: Next row for parameter Address = 4 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '4'.
+Notify: Next row for parameter LastName = 4 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '4'.
+Notify: Next row for parameter Password = 4 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '4'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.1877 Wasted Time: 0.0168).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1417 Wasted Time: 0.0187).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t9"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test9"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1078 body bytes, 362 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1088 Wasted Time: 0.0173).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5895 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2352 Wasted Time: 0.0215).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.1897 Wasted Time: 0.0137).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Notify: Next row for parameter State = 5 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '5'.
+Notify: Next row for parameter U_name = 5 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '5'.
+Notify: Next row for parameter FirstName = 5 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '5'.
+Notify: Next row for parameter Address = 5 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '5'.
+Notify: Next row for parameter LastName = 5 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '5'.
+Notify: Next row for parameter Password = 5 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '5'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.1913 Wasted Time: 0.0185).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1277 Wasted Time: 0.0205).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t10"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test10"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1079 body bytes, 367 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1406 Wasted Time: 0.0206).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5896 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2214 Wasted Time: 0.0203).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.1891 Wasted Time: 0.0212).
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Notify: Next row for parameter State = 6 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '6'.
+Notify: Next row for parameter U_name = 6 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '6'.
+Notify: Next row for parameter FirstName = 6 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '6'.
+Notify: Next row for parameter Address = 6 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '6'.
+Notify: Next row for parameter LastName = 6 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '6'.
+Notify: Next row for parameter Password = 6 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '6'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10076 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2198 Wasted Time: 0.0213).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1727 Wasted Time: 0.0264).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t11"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test11"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1079 body bytes, 367 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1414 Wasted Time: 0.0204).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5896 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.3004 Wasted Time: 0.0232).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2173 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.1739 Wasted Time: 0.0166).
+Ending action Action.
+Ending iteration 6.
+Starting iteration 7.
+Notify: Next row for parameter State = 7 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '7'.
+Notify: Next row for parameter U_name = 7 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '7'.
+Notify: Next row for parameter FirstName = 7 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '7'.
+Notify: Next row for parameter Address = 7 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '7'.
+Notify: Next row for parameter LastName = 7 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '7'.
+Notify: Next row for parameter Password = 7 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '7'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10077 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2674 Wasted Time: 0.0396).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1576 Wasted Time: 0.0256).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t12"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test12"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): Notify: Saving Parameter "success = 1".
+Action.c(79): web_submit_data("login.pl_2") was successful, 1079 body bytes, 367 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1266 Wasted Time: 0.0208).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5896 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2520 Wasted Time: 0.0270).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2718 Wasted Time: 0.0257).
+Ending action Action.
+Ending iteration 7.
+Starting iteration 8.
+Notify: Next row for parameter State = 8 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '8'.
+Notify: Next row for parameter U_name = 8 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '8'.
+Notify: Next row for parameter FirstName = 8 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '8'.
+Notify: Next row for parameter Address = 8 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '8'.
+Notify: Next row for parameter LastName = 8 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '8'.
+Notify: Next row for parameter Password = 8 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '8'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10074 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2027 Wasted Time: 0.0354).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1416 Wasted Time: 0.0285).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t8"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test8"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test8"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2716 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.2638 Wasted Time: 0.0374).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2535 Wasted Time: 0.0295).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.1726 Wasted Time: 0.0198).
+Ending action Action.
+Ending iteration 8.
+Starting iteration 9.
+Notify: Next row for parameter State = 9 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '9'.
+Notify: Next row for parameter U_name = 9 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '9'.
+Notify: Next row for parameter FirstName = 9 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '9'.
+Notify: Next row for parameter Address = 9 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '9'.
+Notify: Next row for parameter LastName = 9 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '9'.
+Notify: Next row for parameter Password = 9 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '9'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.3148 Wasted Time: 0.0346).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1437 Wasted Time: 0.0355).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t9"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test9"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test9"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2716 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1416 Wasted Time: 0.0289).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2961 Wasted Time: 0.0280).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2174 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.1901 Wasted Time: 0.0236).
+Ending action Action.
+Ending iteration 9.
+Starting iteration 10.
+Notify: Next row for parameter State = 10 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '10'.
+Notify: Next row for parameter U_name = 10 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '10'.
+Notify: Next row for parameter FirstName = 10 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '10'.
+Notify: Next row for parameter Address = 10 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '10'.
+Notify: Next row for parameter LastName = 10 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '10'.
+Notify: Next row for parameter Password = 10 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '10'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2516 Wasted Time: 0.0469).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1569 Wasted Time: 0.0425).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t10"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test10"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test10"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2723 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.2174 Wasted Time: 0.0385).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2655 Wasted Time: 0.0443).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2301 Wasted Time: 0.0324).
+Ending action Action.
+Ending iteration 10.
+Starting iteration 11.
+Notify: Next row for parameter State = 11 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '11'.
+Notify: Next row for parameter U_name = 11 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '11'.
+Notify: Next row for parameter FirstName = 11 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '11'.
+Notify: Next row for parameter Address = 11 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '11'.
+Notify: Next row for parameter LastName = 11 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '11'.
+Notify: Next row for parameter Password = 11 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '11'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2176 Wasted Time: 0.0342).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1430 Wasted Time: 0.0365).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t11"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test11"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test11"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2723 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1744 Wasted Time: 0.0413).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2381 Wasted Time: 0.0351).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2173 Wasted Time: 0.0373).
+Ending action Action.
+Ending iteration 11.
+Starting iteration 12.
+Notify: Next row for parameter State = 12 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '12'.
+Notify: Next row for parameter U_name = 12 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '12'.
+Notify: Next row for parameter FirstName = 12 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '12'.
+Notify: Next row for parameter Address = 12 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '12'.
+Notify: Next row for parameter LastName = 12 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '12'.
+Notify: Next row for parameter Password = 12 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '12'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2024 Wasted Time: 0.0390).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1735 Wasted Time: 0.0442).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t12"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test12"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test12"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2723 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.1728 Wasted Time: 0.0445).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2195 Wasted Time: 0.0420).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2168 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2053 Wasted Time: 0.0421).
+Ending action Action.
+Ending iteration 12.
+Starting iteration 13.
+Notify: Next row for parameter State = 1 [table  = State].
+Notify: Getting new value for parameter 'State': table = 'Users_Signup.Dat' column = '5' row = '1'.
+Notify: Next row for parameter U_name = 1 [table  = U_name].
+Notify: Getting new value for parameter 'U_name': table = 'Users_Signup.Dat' column = '0' row = '1'.
+Notify: Next row for parameter FirstName = 1 [table  = FirstName].
+Notify: Getting new value for parameter 'FirstName': table = 'Users_Signup.Dat' column = '2' row = '1'.
+Notify: Next row for parameter Address = 1 [table  = Address].
+Notify: Getting new value for parameter 'Address': table = 'Users_Signup.Dat' column = '4' row = '1'.
+Notify: Next row for parameter LastName = 1 [table  = LastName].
+Notify: Getting new value for parameter 'LastName': table = 'Users_Signup.Dat' column = '3' row = '1'.
+Notify: Next row for parameter Password = 1 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Users_Signup.Dat' column = '1' row = '1'.
+Starting action Action.
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(6): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+Action.c(8): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" started.
+Action.c(19): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(19): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(19): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Action.c(19): Notify: Saving Parameter "Launchpage = 1".
+Action.c(19): web_url("index.htm") was successful, 10072 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "WT_S01_SignUp_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2845 Wasted Time: 0.0594).
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" started.
+Action.c(50): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(50): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(50): Notify: Saving Parameter "SignupPage = 1".
+Action.c(50): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(60): Notify: Transaction "WT_S01_SignUp_T02_SignUpPage" ended with a "Pass" status (Duration: 0.1696 Wasted Time: 0.0487).
+Action.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(76): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" started.
+Action.c(79): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "U_name" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "Password" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "FirstName" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "LastName" =  "t6"
+Action.c(79): Notify: Parameter Substitution: parameter "Address" =  "test6"
+Action.c(79): Notify: Parameter Substitution: parameter "State" =  "test6"
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Registered web_reg_find successful for "Text=Thank you"  	[MsgId: MMSG-26362]
+Action.c(79): Notify: Saving Parameter "success = 0".
+Action.c(79): web_submit_data("login.pl_2") was successful, 2716 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(99): Notify: Transaction "WT_S01_SignUp_T03_customer_dtls_Page" ended with a "Pass" status (Duration: 0.2368 Wasted Time: 0.0498).
+Action.c(109): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(109): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" started.
+Action.c(115): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(115): Registered web_reg_find successful for "Text=Welcome," (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): Notify: Saving Parameter "welcome = 1".
+Action.c(115): web_url("button_next.gif") was successful, 5890 body bytes, 1888 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "WT_S01_SignUp_T04_dtls_After_continue_Page" ended with a "Pass" status (Duration: 0.2663 Wasted Time: 0.0561).
+Action.c(131): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" started.
+Action.c(134): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(138): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(138): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(138): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(138): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(138): Notify: Saving Parameter "Signoff = 1".
+Action.c(138): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(147): Notify: Transaction "WT_S01_SignUp_T05_SignOff_Page" ended with a "Pass" status (Duration: 0.2525 Wasted Time: 0.0474).
+Ending action Action.
+Ending iteration 13.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 8516), ended OK."

@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/xml
+StepName=
+Total=1
+FileName1=t1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=0
+URL1=http://www.thomas-bayer.com/axis2/services/BLZService

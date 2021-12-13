@@ -1,0 +1,1731 @@
+------------------------------------------------------------------------------------------
+| LoadRunner Recording Log File                                    |
+| Date Generated : Mon Dec  6 12:36:17 2021                                              |
+------------------------------------------------------------------------------------------
+
+[Op#:     1]------------------------------------------------------------------------------
+Record Section      : Action
+
+[Op#:     2]------------------------------------------------------------------------------
+Start Record        : 1
+
+[Op#:     3]------------------------------------------------------------------------------
+Api Event (0)       : Id=WPLUS Proc=0e1c:05fc  Start=588630625  End=588630625  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:     4]------------------------------------------------------------------------------
+Api Event (1)       : Id=WPLUS Proc=0e1c:1710  Start=588630734  End=588630734  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00x\xa6\xd5\x9f:\xca\x0e0" }
+Argument#  5  IN  : [scope_id] = 10
+Return Value      : (void)
+
+[Op#:     5]------------------------------------------------------------------------------
+Api Event (2)       : Id=WPLUS Proc=0e1c:1710  Start=588630734  End=588630734  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00x\xa6\xd5\x9f:\xca\x0e0" }
+Argument#  5  IN  : [scope_id] = 10
+Return Value      : (void)
+
+[Op#:     6]------------------------------------------------------------------------------
+Api Event (3)       : Id=WPLUS Proc=0e1c:20e4  Start=588631046  End=588631046  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:     7]------------------------------------------------------------------------------
+Api Event (4)       : Id=WPLUS Proc=0e1c:20e4  Start=588631046  End=588631046  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:     8]------------------------------------------------------------------------------
+Api Event (5)       : Id=WPLUS Proc=0e1c:0ae4  Start=588631046  End=588631046  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:     9]------------------------------------------------------------------------------
+Api Event (6)       : Id=WPLUS Proc=0e1c:0ae4  Start=588631046  End=588631062  Duration=16 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    10]------------------------------------------------------------------------------
+Api Event (7)       : Id=HTTP Proc=0e1c:800c90c9  Start=588631062  End=588631062  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->664
+Argument#  3  OUT : [buflen] = ->664
+Return Value      : (void)
+
+[Op#:    11]------------------------------------------------------------------------------
+Api Event (8)       : Id=HTTP Proc=0e1c:80001001  Start=588631062  End=588631062  Duration=0 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:300]{ "GET /webtours/index.htm HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:298]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:03 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n"
+							"ETag: ""100000002402a-16e-4ddb1559ac980""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 366\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: text/html\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->300
+Argument#  7  OUT : [hdr_buflen] = ->298
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_001_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    12]------------------------------------------------------------------------------
+Api Event (9)       : Id=HTTP Proc=0e1c:800c90ca  Start=588631421  End=588631421  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->1007
+Argument#  3  OUT : [buflen] = ->1007
+Return Value      : (void)
+
+[Op#:    13]------------------------------------------------------------------------------
+Api Event (10)      : Id=HTTP Proc=0e1c:80001002  Start=588631406  End=588631421  Duration=15 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:353]{ "GET /webtours/header.html HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/webtours/index.htm\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:297]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n"
+							"ETag: ""1000000024028-2c6-4ddb1559ac980""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 710\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: text/html\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->353
+Argument#  7  OUT : [hdr_buflen] = ->297
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_001_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    14]------------------------------------------------------------------------------
+Api Event (11)      : Id=HTTP Proc=0e1c:800ca0c9  Start=588631484  End=588631484  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1021
+Argument#  3  OUT : [buflen] = ->1021
+Return Value      : (void)
+
+[Op#:    15]------------------------------------------------------------------------------
+Api Event (12)      : Id=HTTP Proc=0e1c:80002001  Start=588631406  End=588631500  Duration=94 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:364]{ "GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/webtours/index.htm\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:328]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Set-Cookie: MSO=SID&1638773944; path=/\r\n"
+							"Set-Cookie: MTUserInfo=; path=/; expires=Sun, 05-Dec-2021 06:59:04 GMT\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->364
+Argument#  7  OUT : [hdr_buflen] = ->328
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_002_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    16]------------------------------------------------------------------------------
+Api Event (13)      : Id=HTTP Proc=0e1c:800ca0c9  Start=588631500  End=588631500  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    17]------------------------------------------------------------------------------
+Api Event (14)      : Id=HTTP Proc=0e1c:800ca0ca  Start=588631718  End=588631718  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->898
+Argument#  3  OUT : [buflen] = ->898
+Return Value      : (void)
+
+[Op#:    18]------------------------------------------------------------------------------
+Api Event (15)      : Id=HTTP Proc=0e1c:80002002  Start=588631718  End=588631718  Duration=0 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:403]{ "GET /webtours/images/hp_logo.png HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/webtours/header.html\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:297]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""1000000024041-259-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 601\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/png\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->403
+Argument#  7  OUT : [hdr_buflen] = ->297
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_002_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    19]------------------------------------------------------------------------------
+Api Event (16)      : Id=HTTP Proc=0e1c:800c90cb  Start=588631718  End=588631718  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->4486
+Argument#  3  OUT : [buflen] = ->4486
+Return Value      : (void)
+
+[Op#:    20]------------------------------------------------------------------------------
+Api Event (17)      : Id=HTTP Proc=0e1c:80001003  Start=588631718  End=588631734  Duration=16 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:404]{ "GET /webtours/images/webtours.png HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/webtours/header.html\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:299]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Mon, 04 Nov 2013 13:47:02 GMT\r\n"
+							"ETag: ""100000002404d-105b-4ea5a26938180""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 4187\r\n"
+							"Keep-Alive: timeout=5, max=98\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/png\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->404
+Argument#  7  OUT : [hdr_buflen] = ->299
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_001_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    21]------------------------------------------------------------------------------
+Api Event (18)      : Id=HTTP Proc=0e1c:800ca0cb  Start=588631781  End=588631781  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->1659
+Argument#  3  OUT : [buflen] = ->1659
+Return Value      : (void)
+
+[Op#:    22]------------------------------------------------------------------------------
+Api Event (19)      : Id=HTTP Proc=0e1c:80002003  Start=588631781  End=588631796  Duration=15 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:392]{ "GET /WebTours/home.html HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:298]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n"
+							"ETag: ""1000000024029-551-4ddb1559ac980""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 1361\r\n"
+							"Keep-Alive: timeout=5, max=98\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: text/html\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->392
+Argument#  7  OUT : [hdr_buflen] = ->298
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_002_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    23]------------------------------------------------------------------------------
+Api Event (20)      : Id=HTTP Proc=0e1c:800c90cc  Start=588631875  End=588631875  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1750
+Argument#  3  OUT : [buflen] = ->1750
+Return Value      : (void)
+
+[Op#:    24]------------------------------------------------------------------------------
+Api Event (21)      : Id=HTTP Proc=0e1c:80001004  Start=588631765  End=588631875  Duration=110 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:396]{ "GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:255]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: Sun, 05 Dec 2021 06:59:04 GMT\r\n"
+							"Keep-Alive: timeout=5, max=97\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->396
+Argument#  7  OUT : [hdr_buflen] = ->255
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_001_004.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    25]------------------------------------------------------------------------------
+Api Event (22)      : Id=HTTP Proc=0e1c:800ca0cc  Start=588631921  End=588631921  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->976
+Argument#  3  OUT : [buflen] = ->976
+Return Value      : (void)
+
+[Op#:    26]------------------------------------------------------------------------------
+Api Event (23)      : Id=HTTP Proc=0e1c:80002004  Start=588631921  End=588631921  Duration=0 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:407]{ "GET /WebTours/images/mer_login.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:297]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:04 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""1000000024049-2a7-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 679\r\n"
+							"Keep-Alive: timeout=5, max=97\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->407
+Argument#  7  OUT : [hdr_buflen] = ->297
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_002_004.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    27]------------------------------------------------------------------------------
+Api Event (24)      : Id=HTTP Proc=0e1c:800c90cc  Start=588631937  End=588631937  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    28]------------------------------------------------------------------------------
+Api Event (25)      : Id=HTTP Proc=0e1c:800c90cd  Start=588632562  End=588632562  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->424
+Argument#  3  OUT : [buflen] = ->424
+Return Value      : (void)
+
+[Op#:    29]------------------------------------------------------------------------------
+Api Event (26)      : Id=HTTP Proc=0e1c:80001005  Start=588632546  End=588632562  Duration=16 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:231]{ "GET /favicon.ico HTTP/1.1\r\n"
+							"Accept: */*\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:215]{ "HTTP/1.1 404 Not Found\r\n"
+							"Date: Mon, 06 Dec 2021 06:59:05 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Content-Length: 209\r\n"
+							"Keep-Alive: timeout=5, max=96\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: text/html; charset=iso-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->231
+Argument#  7  OUT : [hdr_buflen] = ->215
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_001_005.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    30]------------------------------------------------------------------------------
+PauseEvent          : (null)
+
+[Op#:    31]------------------------------------------------------------------------------
+Api Event (27)      : Id=WPLUS Proc=2540:1850  Start=588635031  End=588635046  Duration=15 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    32]------------------------------------------------------------------------------
+Api Event (28)      : Id=WPLUS Proc=2540:1fd0  Start=588635203  End=588635203  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00x\xa6\xd5\x9f:\xca\x0e0" }
+Argument#  5  IN  : [scope_id] = 10
+Return Value      : (void)
+
+[Op#:    33]------------------------------------------------------------------------------
+Api Event (29)      : Id=WPLUS Proc=2540:1fd0  Start=588635203  End=588635203  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00x\xa6\xd5\x9f:\xca\x0e0" }
+Argument#  5  IN  : [scope_id] = 10
+Return Value      : (void)
+
+[Op#:    34]------------------------------------------------------------------------------
+Api Event (30)      : Id=WPLUS Proc=0e1c:05fc  Start=588636937  End=588636937  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 2
+Return Value      : (void)
+
+[Op#:    35]------------------------------------------------------------------------------
+Api Event (31)      : Id=WPLUS Proc=0e1c:05fc  Start=588637578  End=588637578  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 1
+Return Value      : (void)
+
+[Op#:    36]------------------------------------------------------------------------------
+Continue            : (null)
+
+[Op#:    37]------------------------------------------------------------------------------
+Comment             :  ************Click on Signup Now*********** 
+
+[Op#:    38]------------------------------------------------------------------------------
+Api Event (32)      : Id=WPLUS Proc=0e1c:2334  Start=588930984  End=588930984  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    39]------------------------------------------------------------------------------
+Api Event (33)      : Id=WPLUS Proc=0e1c:0fc8  Start=588930984  End=588930984  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    40]------------------------------------------------------------------------------
+Api Event (34)      : Id=WPLUS Proc=0e1c:2334  Start=588930984  End=588930984  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    41]------------------------------------------------------------------------------
+Api Event (35)      : Id=WPLUS Proc=0e1c:0fc8  Start=588930984  End=588930984  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    42]------------------------------------------------------------------------------
+Api Event (36)      : Id=HTTP Proc=0e1c:800cb0c9  Start=588931062  End=588931062  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->2665
+Argument#  3  OUT : [buflen] = ->2665
+Return Value      : (void)
+
+[Op#:    43]------------------------------------------------------------------------------
+Api Event (37)      : Id=HTTP Proc=0e1c:80003001  Start=588930984  End=588931062  Duration=78 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:410]{ "GET /cgi-bin/login.pl?username=&password=&getInfo=true HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/WebTours/home.html\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:229]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:04:03 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: 5s\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->410
+Argument#  7  OUT : [hdr_buflen] = ->229
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_003_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    44]------------------------------------------------------------------------------
+Api Event (38)      : Id=HTTP Proc=0e1c:800cb0c9  Start=588931078  End=588931078  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    45]------------------------------------------------------------------------------
+Api Event (39)      : Id=HTTP Proc=0e1c:800cc0c9  Start=588931078  End=588931093  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1056
+Argument#  3  OUT : [buflen] = ->1056
+Return Value      : (void)
+
+[Op#:    46]------------------------------------------------------------------------------
+Api Event (40)      : Id=HTTP Proc=0e1c:80004001  Start=588931078  End=588931093  Duration=15 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:436]{ "GET /WebTours/images/button_next.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:298]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:04:03 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""1000000024039-2f6-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 758\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->436
+Argument#  7  OUT : [hdr_buflen] = ->298
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_004_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    47]------------------------------------------------------------------------------
+Api Event (41)      : Id=HTTP Proc=0e1c:800cb0ca  Start=588931125  End=588931125  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->11601
+Argument#  3  OUT : [buflen] = ->11601
+Return Value      : (void)
+
+[Op#:    48]------------------------------------------------------------------------------
+Api Event (42)      : Id=HTTP Proc=0e1c:80003002  Start=588931078  End=588931125  Duration=47 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:404]{ "GET /WebTours/profileValidate.js HTTP/1.1\r\n"
+							"Accept: application/javascript, */*;q=0.8\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:313]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:04:03 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Sun, 22 Apr 2012 14:28:17 GMT\r\n"
+							"ETag: ""100000002402d-2c18-4be45551fa240""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 11288\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: application/javascript\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->404
+Argument#  7  OUT : [hdr_buflen] = ->313
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_003_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    49]------------------------------------------------------------------------------
+Api Event (43)      : Id=WPLUS Proc=0e1c:05fc  Start=588936078  End=588936078  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 4
+Return Value      : (void)
+
+[Op#:    50]------------------------------------------------------------------------------
+Api Event (44)      : Id=WPLUS Proc=0e1c:05fc  Start=588936125  End=588936125  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 3
+Return Value      : (void)
+
+[Op#:    51]------------------------------------------------------------------------------
+Comment             :  Enter details nd click continue 
+
+[Op#:    52]------------------------------------------------------------------------------
+Api Event (45)      : Id=WPLUS Proc=0e1c:2334  Start=589009609  End=589009609  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    53]------------------------------------------------------------------------------
+Api Event (46)      : Id=WPLUS Proc=0e1c:18e0  Start=589009609  End=589009609  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    54]------------------------------------------------------------------------------
+Api Event (47)      : Id=WPLUS Proc=0e1c:2334  Start=589009609  End=589009609  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    55]------------------------------------------------------------------------------
+Api Event (48)      : Id=WPLUS Proc=0e1c:18e0  Start=589009609  End=589009609  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    56]------------------------------------------------------------------------------
+Api Event (49)      : Id=HTTP Proc=0e1c:800cd0c9  Start=589009656  End=589009671  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1474
+Argument#  3  OUT : [buflen] = ->1474
+Return Value      : (void)
+
+[Op#:    57]------------------------------------------------------------------------------
+Api Event (50)      : Id=HTTP Proc=0e1c:80005001  Start=589009609  End=589009671  Duration=62 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:504]{ "POST /cgi-bin/login.pl HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Content-Type: application/x-www-form-urlencoded\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Content-Length: 161\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cache-Control: no-cache\r\n"
+							"Cookie: MSO=SID&1638773944\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:390]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:22 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: 5s\r\n"
+							"Set-Cookie: MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&; path=/\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->504
+Argument#  7  OUT : [hdr_buflen] = ->390
+Argument#  8  IN  : [body_buffer] = ->Array[0:161]{ "username=siva&password=avis&passwordConfirm=avis&firstName=siva&lastName=k&address1=marathalli&address2=bangalore%2Fkarnataka%2F560037&register.x=45&register.y=1" }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->161
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_005_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    58]------------------------------------------------------------------------------
+Api Event (51)      : Id=HTTP Proc=0e1c:800cd0c9  Start=589009671  End=589009671  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    59]------------------------------------------------------------------------------
+Api Event (52)      : Id=WPLUS Proc=0e1c:05fc  Start=589014734  End=589014734  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 5
+Return Value      : (void)
+
+[Op#:    60]------------------------------------------------------------------------------
+Comment             :  click continue 
+
+[Op#:    61]------------------------------------------------------------------------------
+Api Event (53)      : Id=WPLUS Proc=0e1c:0fc8  Start=589034671  End=589034671  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    62]------------------------------------------------------------------------------
+Api Event (54)      : Id=WPLUS Proc=0e1c:0fc8  Start=589034671  End=589034671  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    63]------------------------------------------------------------------------------
+Api Event (55)      : Id=HTTP Proc=0e1c:800cf0c9  Start=589035750  End=589035750  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->819
+Argument#  3  OUT : [buflen] = ->819
+Return Value      : (void)
+
+[Op#:    64]------------------------------------------------------------------------------
+Api Event (56)      : Id=HTTP Proc=0e1c:80007001  Start=589035671  End=589035750  Duration=79 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:529]{ "GET /cgi-bin/welcome.pl?page=menus HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/login.pl\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:216]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->529
+Argument#  7  OUT : [hdr_buflen] = ->216
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_007_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    65]------------------------------------------------------------------------------
+Api Event (57)      : Id=HTTP Proc=0e1c:800cf0c9  Start=589035750  End=589035750  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    66]------------------------------------------------------------------------------
+Api Event (58)      : Id=WPLUS Proc=0e1c:05fc  Start=589035750  End=589035750  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 6
+Return Value      : (void)
+
+[Op#:    67]------------------------------------------------------------------------------
+Api Event (59)      : Id=WPLUS Proc=0e1c:2334  Start=589035765  End=589035765  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    68]------------------------------------------------------------------------------
+Api Event (60)      : Id=WPLUS Proc=0e1c:2334  Start=589035765  End=589035765  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    69]------------------------------------------------------------------------------
+Api Event (61)      : Id=HTTP Proc=0e1c:800cf0ca  Start=589035921  End=589035921  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->1744
+Argument#  3  OUT : [buflen] = ->1744
+Return Value      : (void)
+
+[Op#:    70]------------------------------------------------------------------------------
+Api Event (62)      : Id=HTTP Proc=0e1c:80007002  Start=589035843  End=589035921  Duration=78 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:545]{ "GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:255]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: Sun, 05 Dec 2021 07:05:48 GMT\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->545
+Argument#  7  OUT : [hdr_buflen] = ->255
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_007_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    71]------------------------------------------------------------------------------
+Api Event (63)      : Id=HTTP Proc=0e1c:800cf0ca  Start=589035921  End=589035921  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    72]------------------------------------------------------------------------------
+Api Event (64)      : Id=HTTP Proc=0e1c:800d00c9  Start=589035937  End=589035937  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1154
+Argument#  3  OUT : [buflen] = ->1154
+Return Value      : (void)
+
+[Op#:    73]------------------------------------------------------------------------------
+Api Event (65)      : Id=HTTP Proc=0e1c:80008001  Start=589035859  End=589035937  Duration=78 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:540]{ "GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:229]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: 5s\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->540
+Argument#  7  OUT : [hdr_buflen] = ->229
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_008_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    74]------------------------------------------------------------------------------
+Api Event (66)      : Id=WPLUS Proc=0e1c:0fc8  Start=589035953  End=589035953  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    75]------------------------------------------------------------------------------
+Api Event (67)      : Id=WPLUS Proc=0e1c:0ba8  Start=589035953  End=589035953  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    76]------------------------------------------------------------------------------
+Api Event (68)      : Id=WPLUS Proc=0e1c:18e0  Start=589035953  End=589035953  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    77]------------------------------------------------------------------------------
+Api Event (69)      : Id=WPLUS Proc=0e1c:0fc8  Start=589035953  End=589035953  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    78]------------------------------------------------------------------------------
+Api Event (70)      : Id=HTTP Proc=0e1c:800d00c9  Start=589035953  End=589035953  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    79]------------------------------------------------------------------------------
+Api Event (71)      : Id=WPLUS Proc=0e1c:0ba8  Start=589035968  End=589035968  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    80]------------------------------------------------------------------------------
+Api Event (72)      : Id=HTTP Proc=0e1c:800d10c9  Start=589035968  End=589035968  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1031
+Argument#  3  OUT : [buflen] = ->1031
+Return Value      : (void)
+
+[Op#:    81]------------------------------------------------------------------------------
+Api Event (73)      : Id=HTTP Proc=0e1c:80009001  Start=589035968  End=589035984  Duration=16 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:558]{ "GET /WebTours/images/itinerary.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:298]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""1000000024046-2dd-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 733\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->558
+Argument#  7  OUT : [hdr_buflen] = ->298
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_009_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    82]------------------------------------------------------------------------------
+Api Event (74)      : Id=HTTP Proc=0e1c:800cf0cb  Start=589035984  End=589035984  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->1023
+Argument#  3  OUT : [buflen] = ->1023
+Return Value      : (void)
+
+[Op#:    83]------------------------------------------------------------------------------
+Api Event (75)      : Id=WPLUS Proc=0e1c:18e0  Start=589035984  End=589035984  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    84]------------------------------------------------------------------------------
+Api Event (76)      : Id=HTTP Proc=0e1c:80007003  Start=589035921  End=589035984  Duration=63 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:556]{ "GET /WebTours/images/flights.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:297]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""100000002403c-2d6-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 726\r\n"
+							"Keep-Alive: timeout=5, max=98\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->556
+Argument#  7  OUT : [hdr_buflen] = ->297
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_007_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    85]------------------------------------------------------------------------------
+Api Event (77)      : Id=HTTP Proc=0e1c:800d20c9  Start=589036000  End=589036000  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1049
+Argument#  3  OUT : [buflen] = ->1049
+Return Value      : (void)
+
+[Op#:    86]------------------------------------------------------------------------------
+Api Event (78)      : Id=HTTP Proc=0e1c:8000a001  Start=589035984  End=589036000  Duration=16 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:556]{ "GET /WebTours/images/signoff.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:298]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""100000002404c-2ef-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 751\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->556
+Argument#  7  OUT : [hdr_buflen] = ->298
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_010_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    87]------------------------------------------------------------------------------
+Api Event (79)      : Id=HTTP Proc=0e1c:800d00ca  Start=589036015  End=589036015  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->985
+Argument#  3  OUT : [buflen] = ->985
+Return Value      : (void)
+
+[Op#:    88]------------------------------------------------------------------------------
+Api Event (80)      : Id=HTTP Proc=0e1c:80008002  Start=589035968  End=589036015  Duration=47 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:556]{ "GET /WebTours/images/in_home.gif HTTP/1.1\r\n"
+							"Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:297]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:05:48 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n"
+							"ETag: ""1000000024043-2b0-4b654c052c2c0""\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Content-Length: 688\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Content-Type: image/gif\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->556
+Argument#  7  OUT : [hdr_buflen] = ->297
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_008_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    89]------------------------------------------------------------------------------
+Api Event (81)      : Id=WPLUS Proc=0e1c:05fc  Start=589040968  End=589040968  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 9
+Return Value      : (void)
+
+[Op#:    90]------------------------------------------------------------------------------
+Api Event (82)      : Id=WPLUS Proc=0e1c:05fc  Start=589040984  End=589040984  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 10
+Return Value      : (void)
+
+[Op#:    91]------------------------------------------------------------------------------
+Api Event (83)      : Id=WPLUS Proc=0e1c:05fc  Start=589040984  End=589040984  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 7
+Return Value      : (void)
+
+[Op#:    92]------------------------------------------------------------------------------
+Api Event (84)      : Id=WPLUS Proc=0e1c:05fc  Start=589041015  End=589041015  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 8
+Return Value      : (void)
+
+[Op#:    93]------------------------------------------------------------------------------
+Comment             :  signoff 
+
+[Op#:    94]------------------------------------------------------------------------------
+Api Event (85)      : Id=WPLUS Proc=0e1c:04c4  Start=589054140  End=589054140  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    95]------------------------------------------------------------------------------
+Api Event (86)      : Id=WPLUS Proc=0e1c:04c4  Start=589054140  End=589054140  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    96]------------------------------------------------------------------------------
+Api Event (87)      : Id=WPLUS Proc=0e1c:05fc  Start=589055140  End=589055140  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 11
+Return Value      : (void)
+
+[Op#:    97]------------------------------------------------------------------------------
+Api Event (88)      : Id=WPLUS Proc=0e1c:18e0  Start=589055187  End=589055187  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "viyaan"
+Argument#  2  IN  : [ipaddress] = 192.168.43.121 (792ba8c0)
+Return Value      : (void)
+
+[Op#:    98]------------------------------------------------------------------------------
+Api Event (89)      : Id=WPLUS Proc=0e1c:18e0  Start=589055187  End=589055187  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  3  IN  : [portnum] = 1080
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    99]------------------------------------------------------------------------------
+Api Event (90)      : Id=HTTP Proc=0e1c:800d40c9  Start=589055218  End=589055234  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1021
+Argument#  3  OUT : [buflen] = ->1021
+Return Value      : (void)
+
+[Op#:   100]------------------------------------------------------------------------------
+Api Event (91)      : Id=HTTP Proc=0e1c:8000c001  Start=589055140  End=589055234  Duration=94 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:544]{ "GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638773944; MTUserInfo=firstName&siva&address2&bangalore%2Fkarnataka%2F560037&username&siva&hash&33&lastName&k&address1&marathalli&creditCard&&expDate&\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:328]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:06:08 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Set-Cookie: MSO=SID&1638774368; path=/\r\n"
+							"Set-Cookie: MTUserInfo=; path=/; expires=Sun, 05-Dec-2021 07:06:08 GMT\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->544
+Argument#  7  OUT : [hdr_buflen] = ->328
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_012_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   101]------------------------------------------------------------------------------
+Api Event (92)      : Id=HTTP Proc=0e1c:800d40c9  Start=589055234  End=589055234  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:   102]------------------------------------------------------------------------------
+Api Event (93)      : Id=HTTP Proc=0e1c:800d50c9  Start=589055343  End=589055343  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->194
+Argument#  3  OUT : [buflen] = ->194
+Return Value      : (void)
+
+[Op#:   103]------------------------------------------------------------------------------
+Api Event (94)      : Id=HTTP Proc=0e1c:8000d001  Start=589055343  End=589055343  Duration=0 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:489]{ "GET /WebTours/home.html HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT\r\n"
+							"If-None-Match: ""1000000024029-551-4ddb1559ac980""\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638774368\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:194]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Date: Mon, 06 Dec 2021 07:06:08 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Keep-Alive: timeout=5, max=100\r\n"
+							"ETag: ""1000000024029-551-4ddb1559ac980""\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->489
+Argument#  7  OUT : [hdr_buflen] = ->194
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   104]------------------------------------------------------------------------------
+Api Event (95)      : Id=HTTP Proc=0e1c:800d40ca  Start=589055390  End=589055390  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->1750
+Argument#  3  OUT : [buflen] = ->1750
+Return Value      : (void)
+
+[Op#:   105]------------------------------------------------------------------------------
+Api Event (96)      : Id=HTTP Proc=0e1c:8000c002  Start=589055328  End=589055390  Duration=62 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 127.0.0.1 (0100007f)
+Argument#  4  IN  : [portnum] = 1080
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:393]{ "GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n"
+							"Accept: text/html, application/xhtml+xml, image/jxr, */*\r\n"
+							"Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1\r\n"
+							"Accept-Language: en-IN,en-US;q=0.7,en;q=0.3\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n"
+							"Accept-Encoding: gzip, deflate\r\n"
+							"Host: 127.0.0.1:1080\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Cookie: MSO=SID&1638774368\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:255]{ "HTTP/1.1 200 OK\r\n"
+							"Date: Mon, 06 Dec 2021 07:06:08 GMT\r\n"
+							"Server: Apache/2.2.21 (Win32)\r\n"
+							"Expires: Sun, 05 Dec 2021 07:06:08 GMT\r\n"
+							"Keep-Alive: timeout=5, max=99\r\n"
+							"Connection: Keep-Alive\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"Content-Type: text/html; charset=ISO-8859-1\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->393
+Argument#  7  OUT : [hdr_buflen] = ->255
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:82]{ "C:\\Users\\srkko\\Documents\\VuGen\\Scripts\\WT_S01_SignUp\\data\\http.db\\resp_012_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->82
+Argument# 12  IN  : [flags] = ->0
+Argument# 12  OUT : [flags] = ->0
+Argument# 13  IN  : [sourceipaddress] = 192.168.43.121 (792ba8c0)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   106]------------------------------------------------------------------------------
+Api Event (97)      : Id=HTTP Proc=0e1c:800d40ca  Start=589055390  End=589055390  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:   107]------------------------------------------------------------------------------
+Api Event (98)      : Id=WPLUS Proc=0e1c:05fc  Start=589060359  End=589060359  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 13
+Return Value      : (void)
+
+[Op#:   108]------------------------------------------------------------------------------
+Api Event (99)      : Id=WPLUS Proc=0e1c:05fc  Start=589060468  End=589060468  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 12
+Return Value      : (void)
+
+[Op#:   109]------------------------------------------------------------------------------
+End Record          : END
+
+------------------------------------------------------------------------------------------

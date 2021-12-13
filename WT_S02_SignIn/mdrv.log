@@ -1,0 +1,223 @@
+Virtual User Script started at: 13-12-2021 16:04:14
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (Jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\srkko\Documents\VuGen\Scripts\WT_S02_SignIn\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(20): Notify: Transaction "S02_WT_Login_T01_LaunchPage" started.
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(27): Notify: Saving Parameter "userSession = 132798.027946537ziDAHQipfzcftAQitpHQVDHf".
+Action.c(27): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
+Action.c(27): Notify: Saving Parameter "LaunchC = 6".
+Action.c(27): web_url("index.htm") was successful, 10076 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(37): Notify: Parameter Substitution: parameter "LaunchC" =  "6"
+Action.c(41): Launch_Page_Successful
+Action.c(42): Notify: Transaction "S02_WT_Login_T01_LaunchPage" ended with a "Pass" status (Duration: 0.3639 Wasted Time: 0.1443).
+Action.c(61): lr_think_time: 6.82 seconds (recorded think time was 10.00 seconds).
+Action.c(63): Rendezvous Loginpage_Loginscript
+Action.c(65): Notify: Transaction "S02_WT_Login_T02_Login_Page" started.
+Action.c(68): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(68): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "userSession" =  "132798.027946537ziDAHQipfzcftAQitpHQVDHf"
+Action.c(72): Notify: Parameter Substitution: parameter "Usr_Name" =  "raju"
+Action.c(72): Notify: Next row for parameter Password = 1 [table  = Password].
+Action.c(72): Notify: Parameter Substitution: parameter "Password" =  "ujar"
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Registered web_reg_find successful for "Text=Welcome" (count=6)  	[MsgId: MMSG-26364]
+Action.c(72): Notify: Saving Parameter "LoginC = 6".
+Action.c(72): web_submit_data("login.pl") was successful, 5779 body bytes, 2065 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Notify: Parameter Substitution: parameter "LoginC" =  "6"
+Action.c(93): Launch_Page_Successful
+Action.c(94): Notify: Transaction "S02_WT_Login_T02_Login_Page" ended with a "Pass" status (Duration: 0.3898 Wasted Time: 0.0110).
+Action.c(107): lr_think_time: 6.65 seconds (recorded think time was 10.00 seconds).
+Action.c(109): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" started.
+Action.c(112): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(112): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(116): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(116): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(116): Registered web_reg_find successful for "Text=Username" (count=3)  	[MsgId: MMSG-26364]
+Action.c(116): Notify: Saving Parameter "Logoff = 3".
+Action.c(116): web_url("SignOff Button") was successful, 2176 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(126): Notify: Parameter Substitution: parameter "Logoff" =  "3"
+Action.c(130): Logoff_Page_Successful
+Action.c(131): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" ended with a "Pass" status (Duration: 0.3944 Wasted Time: 0.0090).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter Usr_Name = 2 [table  = Usr_Name].
+Notify: Getting new value for parameter 'Usr_Name': table = 'Usr_Name.dat' column = '0' row = '2'.
+Notify: Next row for parameter Password = 2 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Password.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(20): Notify: Transaction "S02_WT_Login_T01_LaunchPage" started.
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(27): Notify: Saving Parameter "userSession = 132798.029161604ziDAHQipzcftAQitpHQVHf".
+Action.c(27): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
+Action.c(27): Notify: Saving Parameter "LaunchC = 6".
+Action.c(27): web_url("index.htm") was successful, 10074 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(37): Notify: Parameter Substitution: parameter "LaunchC" =  "6"
+Action.c(41): Launch_Page_Successful
+Action.c(42): Notify: Transaction "S02_WT_Login_T01_LaunchPage" ended with a "Pass" status (Duration: 0.2863 Wasted Time: 0.0200).
+Action.c(61): lr_think_time: 7.10 seconds (recorded think time was 10.00 seconds).
+Action.c(63): Rendezvous Loginpage_Loginscript
+Action.c(65): Notify: Transaction "S02_WT_Login_T02_Login_Page" started.
+Action.c(68): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(68): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "userSession" =  "132798.029161604ziDAHQipzcftAQitpHQVHf"
+Action.c(72): Notify: Parameter Substitution: parameter "Usr_Name" =  "jojo"
+Action.c(72): Notify: Next row for parameter Password = 2 [table  = Password].
+Action.c(72): Notify: Parameter Substitution: parameter "Password" =  "bean"
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Registered web_reg_find successful for "Text=Welcome" (count=6)  	[MsgId: MMSG-26364]
+Action.c(72): Notify: Saving Parameter "LoginC = 6".
+Action.c(72): web_submit_data("login.pl") was successful, 5779 body bytes, 2035 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Notify: Parameter Substitution: parameter "LoginC" =  "6"
+Action.c(93): Launch_Page_Successful
+Action.c(94): Notify: Transaction "S02_WT_Login_T02_Login_Page" ended with a "Pass" status (Duration: 0.3820 Wasted Time: 0.0185).
+Action.c(107): lr_think_time: 7.68 seconds (recorded think time was 10.00 seconds).
+Action.c(109): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" started.
+Action.c(112): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(112): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(116): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(116): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(116): Registered web_reg_find successful for "Text=Username" (count=3)  	[MsgId: MMSG-26364]
+Action.c(116): Notify: Saving Parameter "Logoff = 3".
+Action.c(116): web_url("SignOff Button") was successful, 2172 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(126): Notify: Parameter Substitution: parameter "Logoff" =  "3"
+Action.c(130): Logoff_Page_Successful
+Action.c(131): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" ended with a "Pass" status (Duration: 0.3010 Wasted Time: 0.0123).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter Usr_Name = 3 [table  = Usr_Name].
+Notify: Getting new value for parameter 'Usr_Name': table = 'Usr_Name.dat' column = '0' row = '3'.
+Notify: Next row for parameter Password = 3 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Password.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(20): Notify: Transaction "S02_WT_Login_T01_LaunchPage" started.
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/webtours/header.html" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Found resource "http://127.0.0.1:1080/webtours/images/webtours.png" in HTML "http://127.0.0.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(27): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(27): Notify: Saving Parameter "userSession = 132798.030457675ziDAHQipzQVzzzzHtAQitpHQcVf".
+Action.c(27): Registered web_reg_find successful for "Text=Web Tours" (count=6)  	[MsgId: MMSG-26364]
+Action.c(27): Notify: Saving Parameter "LaunchC = 6".
+Action.c(27): web_url("index.htm") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(37): Notify: Parameter Substitution: parameter "LaunchC" =  "6"
+Action.c(41): Launch_Page_Successful
+Action.c(42): Notify: Transaction "S02_WT_Login_T01_LaunchPage" ended with a "Pass" status (Duration: 0.3481 Wasted Time: 0.0280).
+Action.c(61): lr_think_time: 7.16 seconds (recorded think time was 10.00 seconds).
+Action.c(63): Rendezvous Loginpage_Loginscript
+Action.c(65): Notify: Transaction "S02_WT_Login_T02_Login_Page" started.
+Action.c(68): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(68): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "userSession" =  "132798.030457675ziDAHQipzQVzzzzHtAQitpHQcVf"
+Action.c(72): Notify: Parameter Substitution: parameter "Usr_Name" =  "siva"
+Action.c(72): Notify: Next row for parameter Password = 3 [table  = Password].
+Action.c(72): Notify: Parameter Substitution: parameter "Password" =  "avis"
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(72): Registered web_reg_find successful for "Text=Welcome" (count=6)  	[MsgId: MMSG-26364]
+Action.c(72): Notify: Saving Parameter "LoginC = 6".
+Action.c(72): web_submit_data("login.pl") was successful, 5779 body bytes, 2072 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Notify: Parameter Substitution: parameter "LoginC" =  "6"
+Action.c(93): Launch_Page_Successful
+Action.c(94): Notify: Transaction "S02_WT_Login_T02_Login_Page" ended with a "Pass" status (Duration: 0.5056 Wasted Time: 0.0175).
+Action.c(107): lr_think_time: 7.38 seconds (recorded think time was 10.00 seconds).
+Action.c(109): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" started.
+Action.c(112): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(112): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(116): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(116): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(116): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(116): Registered web_reg_find successful for "Text=Username" (count=3)  	[MsgId: MMSG-26364]
+Action.c(116): Notify: Saving Parameter "Logoff = 3".
+Action.c(116): web_url("SignOff Button") was successful, 2176 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(126): Notify: Parameter Substitution: parameter "Logoff" =  "3"
+Action.c(130): Logoff_Page_Successful
+Action.c(131): Notify: Transaction "S02_WT_Login_T03_Logoff_Page" ended with a "Pass" status (Duration: 0.3297 Wasted Time: 0.0187).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 4128), ended OK."

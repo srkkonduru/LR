@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<services>
+  <service>
+    <name>BLZService</name>
+    <id>0</id>
+    <ports>
+      <port>
+        <name>BLZServiceSOAP11port_http</name>
+        <id>1</id>
+        <bindingname>BLZServiceSOAP11Binding</bindingname>
+        <porttype>BLZServicePortType</porttype>
+      </port>
+      <port>
+        <name>BLZServiceSOAP12port_http</name>
+        <id>1</id>
+        <bindingname>BLZServiceSOAP12Binding</bindingname>
+        <porttype>BLZServicePortType</porttype>
+      </port>
+    </ports>
+  </service>
+</services>

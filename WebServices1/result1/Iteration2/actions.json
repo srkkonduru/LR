@@ -1,0 +1,15 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "WB_BLZ_T01",
+                "rawStartTime": 1639374772721,
+                "rawEndTime": 1639374773800,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005783557891845703
+            }
+        ]
+    }
+]

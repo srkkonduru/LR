@@ -1,0 +1,72 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=WT_S01_SignUp.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="WT_S01_SignUp_T01_LaunchPage__*delimiter*__WT_S01_SignUp_T02_SignUpPage__*delimiter*__WT_S01_SignUp_T03_customer_dtls_Page__*delimiter*__WT_S01_SignUp_T04_dtls_After_continue_Page__*delimiter*__WT_S01_SignUp_T05_SignOff_Page"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result5
+ActiveRunName=result5
+[Transactions]
+WT_S01_SignUp_T01_LaunchPage=
+WT_S01_SignUp_T02_SignUpPage=
+WT_S01_SignUp_T03_customer_dtls_Page=
+WT_S01_SignUp_T04_dtls_After_continue_Page=
+WT_S01_SignUp_T05_SignOff_Page=
+[ParameterSimulation]
+NumVusers=1
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=2
+IterationFromRTS=0
+NumIterationIndefinitely=1

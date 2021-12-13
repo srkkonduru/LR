@@ -1,0 +1,113 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.htm",
+                "infFile": "t2.inf",
+                "time": 1639393537709
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1639393538032
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t6.inf",
+                "time": 1639393538445
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t7.inf",
+                "time": 1639393540942
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t8.inf",
+                "time": 1639393541216
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t9.inf",
+                "time": 1639393541451
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl_4",
+                "infFile": "t10.inf",
+                "time": 1639393541747
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t11.inf",
+                "time": 1639393542008
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "WT_S03_FB_T01_Launch_page",
+                "rawStartTime": 1639393537421,
+                "rawEndTime": 1639393537764,
+                "thinkTime": 0.0,
+                "wastedTime": 0.13853120803833009
+            },
+            {
+                "transactionName": "WT_S03_FB_T02_Login_page",
+                "rawStartTime": 1639393537827,
+                "rawEndTime": 1639393538094,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013376474380493164
+            },
+            {
+                "transactionName": "WT_S03_FB_T03_Find_Flight",
+                "rawStartTime": 1639393538187,
+                "rawEndTime": 1639393538502,
+                "thinkTime": 0.0,
+                "wastedTime": 0.021746397018432618
+            },
+            {
+                "transactionName": "WT_S03_FB_T04_Select_Flight",
+                "rawStartTime": 1639393540811,
+                "rawEndTime": 1639393541001,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008414983749389649
+            },
+            {
+                "transactionName": "WT_S03_FB_T05_Payment_dtls",
+                "rawStartTime": 1639393541049,
+                "rawEndTime": 1639393541266,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007901668548583985
+            },
+            {
+                "transactionName": "WT_S03_FB_T06_Invoice_Page",
+                "rawStartTime": 1639393541313,
+                "rawEndTime": 1639393541537,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009880542755126953
+            },
+            {
+                "transactionName": "WT_S03_FB_T07_Book_Another_Page",
+                "rawStartTime": 1639393541616,
+                "rawEndTime": 1639393541807,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005578517913818359
+            },
+            {
+                "transactionName": "WT_S03_FB_T08_LogOff_Page",
+                "rawStartTime": 1639393541853,
+                "rawEndTime": 1639393542059,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008743524551391602
+            }
+        ]
+    }
+]
